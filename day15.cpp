@@ -14,12 +14,15 @@ class Operations : public circle{
 	
 	public:
 		
-		int pi = 3.14 ;
-		int r = 5 ;
+		float pi = 3.14 ;
+		float r = 5 ;
+		float h = 7 ;
 		
 		void calculate(){
 			
 			cout<<"Area of Circle : "<<pi*r*r<<endl;
+			cout<<"Area of Triangle : "<<(r*h)/2<<endl;
+			cout<<"Area of Rectangle : "<<r*h<<endl;
 			
 		}
 	
